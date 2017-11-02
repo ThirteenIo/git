@@ -1,8 +1,11 @@
 ### docker-git-alpine
 
-A useful simple git container running in alpine Linux, especially for tiny Linux distro, such as RancherOS, which doesn't have a package manager.
+A useful simple git container running in Alpine Linux, especially for tiny Linux distro, such as RancherOS, which doesn't have a package manager.
+Forked from https://github.com/alpine-docker/git.
 
-[![DockerHub Badge](http://dockeri.co/image/alpine/git)](https://hub.docker.com/r/alpine/git/)
+Main difference with the original project: git is compiled from source, so that we can have the very last version.
+
+[![DockerHub Badge](https://dockeri.co/image/thirteenio/git-client)](https://hub.docker.com/r/thirteenio/git-client/)
 
 ### usage
 
