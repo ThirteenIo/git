@@ -63,3 +63,9 @@ Supports git, http/https and ssh protocols.
 
 Refer:
 [Git on the Server - The Protocols](https://git-scm.com/book/en/v2/Git-on-the-Server-The-Protocols)
+
+### TODO
+
+* Optimise binary size (make them smaller)
+* More builds for previous versions of git
+* Fix "git diff" output which doesn't take colors into account
